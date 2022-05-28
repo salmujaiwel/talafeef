@@ -1,4 +1,4 @@
-# tatafeef--arabic--lemmatizer
+# talafeef--arabic--lemmatizer
 
 # فريق تلافيف
 ## ما يتضمنه نظام المُعجّم العربي
