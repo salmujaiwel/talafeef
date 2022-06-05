@@ -96,4 +96,4 @@
 #### أمثلة من المخرجات 
 ![image](https://user-images.githubusercontent.com/36333755/172040274-5dcb77ae-79b0-4052-8e89-7c89bd84fc07.png)  
 #### النتائج الأولية للنماذج:
-![image](https://user-images.githubusercontent.com/36333755/172041109-3b32059a-0fc3-4c3e-a335-6586cadc6552.png)
+![image](https://user-images.githubusercontent.com/36333755/172041156-f0a5131e-c8aa-4163-9fb9-80ba778f593a.png)
