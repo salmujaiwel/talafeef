@@ -94,6 +94,6 @@
 -	FW	الكلمات الأجنبية
 
 #### أمثلة من المخرجات 
-![image](https://user-images.githubusercontent.com/36333755/172040274-5dcb77ae-79b0-4052-8e89-7c89bd84fc07.png)  
+![image](https://user-images.githubusercontent.com/36333755/172045868-9b8d41b2-a422-4883-ab29-97314f67f618.png)  
 #### النتائج الأولية للنماذج
 ![image](https://user-images.githubusercontent.com/36333755/172041156-f0a5131e-c8aa-4163-9fb9-80ba778f593a.png)
