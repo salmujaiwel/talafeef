@@ -12,7 +12,6 @@
 * اعتمدنا على نموذج مدرب مسبقا لبيرت، لاحظنا أن في هذا النموذج المدرّب مسبقا مشكلة في نظام التفريق الذي قام على تفريق المباني الصرفية مع المباني النحوية. سنعمل على تحسين ذلك ببناء نظام جديد للتفريق يقوم على تفريق المباني النحوية فقط، ثم سنعمل على بناء نموذج بيرت بناء عليه، وعلى بياناتنا الخاصة.
 
 # النماذج على الترتيب مكتوبة بالإنجليزية بغية الوضوح (كل هذه النماذج موضوعة في مجلد باسم: نماذج نظام المعجم Arabic Lemmatizer Models)
-(Mdels and data can be reached here https://drive.google.com/drive/folders/1xisUw45BkYNVAF6NdfhD4CBnmc0kgo8y?usp=sharing) 
 1. CRF Model: (crf_model.sav)
 2. RNN (LSTM) Model: (rnn-model.h5)
 3. N-Gram Model: (tag2index.pkl and word2index.pkl)
