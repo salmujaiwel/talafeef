@@ -95,4 +95,4 @@
 #### أمثلة من المخرجات 
 ![image](https://user-images.githubusercontent.com/36333755/172046299-a0d0a395-4749-4c55-af31-c108a9ef8d89.png)   
 #### النتائج الأولية للنماذج
-![image](https://user-images.githubusercontent.com/36333755/172109842-01f4e04a-7b5a-4829-b797-1659aaf23a95.png)
+![image](https://user-images.githubusercontent.com/36333755/172110076-d74a07a7-a8d6-42d4-b8d0-f38dd07e130a.png)
