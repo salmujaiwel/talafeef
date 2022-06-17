@@ -1,4 +1,4 @@
-# talafeef--arabic--lemmatizer نظام تلافيف للمعُجّم العربي والتنبؤ النصي
+# نظام تلافيف للمُعجّم العربي والتنبؤ النصّي telefeef-arabic-lemmatizer and text-generator
 
 ## لتفاصيل أكثر حول المشروع وما سيتم من تطويرات وتحسينات مستقبلية التواصل عبر البريد الإلكتروني الآتي: salmujaiwel@hotmail.com
 
