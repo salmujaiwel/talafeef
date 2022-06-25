@@ -35,7 +35,7 @@ Maryam Ali Alshehri
 -	Standard--Academic النصوص الأكاديمية (A):	10,512 tokens (before tokenizing); 10,557 tokens (after tokenizing); 10,612 tokens (after segmenting)
 -	Standard-- Khutbah خُطب الحرمين الشريفين (K):	10,380 tokens (before tokenizing); 10,713 tokens (after tokenizing); 13,396 tokens (after segmenting)
 -	Standard--Journalism الصحف العربية (N): 10,408 tokens (before tokenizing); 11,019 tokens (after tokenizing); 12,584 13,396 tokens (after segmenting)
--	Standard--Official-Issues الإصدارات الرسمية: لأنظمة والتشريعات (O): 10,093 tokens (before tokenizing); 10,657 tokens (after tokenizing); 12,351 tokens (after segmenting)
+-	Standard--Official-Issues الإصدارات الرسمية: الأنظمة والتشريعات (O): 10,093 tokens (before tokenizing); 10,657 tokens (after tokenizing); 12,351 tokens (after segmenting)
 -	Standard--Web نصوص الويب (W): 10,097 tokens (before tokenizing); 10,706 tokens (after tokenizing); 12,365 tokens (after segmenting)
 
 **The whole data (Talafeef.txt): 51,490 tokens (before tokenizing); 53,752 tokens (after tokenizing); 61,308 (61,312 IDs as in Talafeef.txt) tokens (after segmenting)**
