@@ -96,9 +96,9 @@ Maryam Ali Alshehri
 -	CD	الأعداد
 -	FW	الكلمات الأجنبية
 ##### أمثلة من المخرجات 
-![image](https://user-images.githubusercontent.com/36333755/179474458-30636311-06eb-4451-ab4f-1eff0e641a8e.png)
+![image](https://user-images.githubusercontent.com/36333755/179474612-d892eba8-756e-4d68-bcf7-45fea20c6150.png)
 ##### النتائج الأولية للنماذج
-![image](https://user-images.githubusercontent.com/36333755/172110076-d74a07a7-a8d6-42d4-b8d0-f38dd07e130a.png)
+![image](https://user-images.githubusercontent.com/36333755/179474534-9f8e87e9-6954-48cc-84b0-04793cc5c607.png) 
 ##### الواجهة الأولية للمستخدم
 ![image](https://user-images.githubusercontent.com/36333755/175337285-aca1e66b-a72a-4508-9e25-0bee9c9cf533.png)
 
