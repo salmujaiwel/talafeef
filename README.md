@@ -97,8 +97,6 @@ Maryam Ali Alshehri
 -	FW	الكلمات الأجنبية
 ##### أمثلة من المخرجات 
 ![image](https://user-images.githubusercontent.com/36333755/179474612-d892eba8-756e-4d68-bcf7-45fea20c6150.png)
-##### النتائج الأولية للنماذج
-![image](https://user-images.githubusercontent.com/36333755/179474751-b73d3ee6-af6f-4150-8445-e711f3b67bc9.png)
 ##### الواجهة الأولية للمستخدم
 ![image](https://user-images.githubusercontent.com/36333755/175337285-aca1e66b-a72a-4508-9e25-0bee9c9cf533.png)
 
