@@ -1,6 +1,6 @@
 #### نظام تلافيف للمُعجّم العربي والتنبؤ النصّي telefeef-arabic-lemmatizer and text-generator
-###### Team Members
-###### Dr. Sultan Almujaiwel, Bassem Essameldin Abdelaziz Omar, Hamdi Habbouza, Maryam Ali Alshehri 
+#### Team Members
+##### Dr. Sultan Almujaiwel, Bassem Essameldin Abdelaziz Omar, Hamdi Habbouza, Maryam Ali Alshehri 
 ##### سيتم تدشين واجهة مستخدم شبكية لهذا النظام بعد مزيد من التطوير، وتعود حقوق هذا المشروع من جهة البيانات ومن جهة النماذج والأدوات كاملة إلى أعضاء فريق المشروع. 
 
 ##### ما يتضمنه نظام المُعجّم العربي
