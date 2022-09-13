@@ -1,4 +1,4 @@
-#### نظام تلافيف للمُعجّم العربي telefeef-arabic-lemmatizer and token-classification 
+#### نظام تلافيف للمُعجّم العربي telefeef-arabic-lemmatizer and token-classification and prediction 
 #### Team Members
 ##### Dr. Sultan Almujaiwel, Bassem Essameldin Abdelaziz Omar, Hamdi Habbouza, Maryam Ali Alshehri 
 ##### سيتم تدشين واجهة مستخدم شبكية لهذا النظام بعد مزيد من التطوير، وتعود حقوق هذا المشروع من جهة البيانات ومن جهة النماذج والأدوات كاملة إلى أعضاء فريق المشروع. 
