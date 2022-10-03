@@ -22,8 +22,6 @@
 6. Pretrained BERT Model (bert-model.h5)
 7. BERT: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl). All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage. 
 
-##### N.B. To execute the user interface, kindly run the code source file named as nlpiffy_gui.py in the the folder named as NLPiffy_GUI.
-
 ##### فكرة نظام تلافيف للمُعجّم العربي
 
 بُني هذا النظام بشكل كامل، بدءًا من جمع المدونة العربية، وصولًا إلى بناء معجّم آلي كامل. يُمكن زيادة نصوص مجالات الأوعية الخمسة التي حُدّدت في هذا المشروع، وقد طوّرنا الأدوات والأساليب التي تُساعد على تفريق وتقطيع النصوص آليا، ثم العمل على (1) استخراج الأصل المعجمي، (2) والمعنى الدلالي الصحيح، (3) والعلاقة الدلالية، (4) والوسم النحوي، (5) والتلازم اللغوي، (6) والتصاحب اللفظي، (7) والتعبير الاصطلاحي، (8) والتنبؤ بالمتلازم والمتصاحب والتعبير الاصطلاحي، (9) وتصحيح المتلازم والمتصاحب والتعبير الاصطلاحي.
