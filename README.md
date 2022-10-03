@@ -1,6 +1,7 @@
 ### نظام تلافيف: نظام معتمد على التعلم العميق للوسوم النحوية والتأصيل المعجمي
 
-##### If you use this repo for any pruporse, please cite using the following metadata: Almujaiwe, S., Omar, B., Habbouza, H., Alshehri, M. (2022). A deep learning-based system for Arabic POS tagging and Lemmatization. GitHub repository. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
+##### If you use this repo for any pruporse, please cite using the following metadata: 
+###### Almujaiwe, S., Omar, B., Habbouza, H., Alshehri, M. (2022). A deep learning-based system for Arabic POS tagging and Lemmatization. GitHub repository. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
 
 ##### ما يتضمنه نظام المُعجّم العربي
 
