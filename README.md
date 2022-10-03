@@ -3,6 +3,7 @@
  
 #### Team Members
 ##### Dr. Sultan Almujaiwel, Bassem Essameldin Abdelaziz Omar, Hamdi Habbouza, Maryam Ali Alshehri 
+##### If you use this repo please cite as follows: Almujaiwe, S., Omar, B., Habbouza, H., Alshehri, M. (2022). A deep learning-based system for Arabic POS tagging and Lemmatization. GitHub repository. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
 
 ##### ما يتضمنه نظام المُعجّم العربي
 
@@ -94,5 +95,3 @@
 -	PUNC	علامات الترقيم
 -	CD	الأعداد
 -	FW	الكلمات الأجنبية
-
-
