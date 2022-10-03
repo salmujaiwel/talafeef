@@ -1,4 +1,6 @@
-#### نظام تلافيف للمُعجّم العربي telefeef-arabic-lemmatizer and token-classification and prediction 
+### نظام تلافيف
+#### نظام معتمد على التعلم العميق للوسوم النحوية والتأصيل المعجمي
+ 
 #### Team Members
 ##### Dr. Sultan Almujaiwel, Bassem Essameldin Abdelaziz Omar, Hamdi Habbouza, Maryam Ali Alshehri 
 
