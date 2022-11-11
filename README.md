@@ -21,6 +21,7 @@
 5. CBOW Model: (model.h5 and embeddings.npz)
 6. Pretrained BERT Model (bert-model.h5)
 7. BERT: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl). All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage. 
+#### To execute the GUI, download the zip file named NLPiffy_GUI, and run the file nlpiffy_gui.py. 
 
 ##### فكرة نظام تلافيف للمُعجّم العربي
 
