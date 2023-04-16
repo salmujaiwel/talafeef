@@ -22,7 +22,8 @@
 3. N-Gram Model: (tag2index.pkl and word2index.pkl)
 4. Skip-Gram Model: (model.pt)
 5. CBOW Model: (model.h5 and embeddings.npz)
-6. araBERTv2: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl). All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage.
+6. araBERTv2: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl).
+#### All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage.
 #### To execute the GUI, download the zip file named NLPiffy_GUI, and run the file saved as nlpiffy_gui.py. 
 ##### فكرة نظام تلافيف للمُعجّم العربي
 
