@@ -19,9 +19,9 @@
 3. N-Gram Model: (tag2index.pkl and word2index.pkl)
 4. Skip-Gram Model: (model.pt)
 5. CBOW Model: (model.h5 and embeddings.npz)
-6. Pretrained BERT Model (bert-model.h5)
-7. BERT: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl). All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage. 
+6. araBERTv2: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl). All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage.
 #### To execute the GUI, download the zip file named NLPiffy_GUI, and run the file saved as nlpiffy_gui.py. 
+#### The pre-trained arabert model has not been fine-tuned on our dataset. Up the moment, we use the araBERT on the raw Arabic text without fin-tuning it for the tasks of POS tagging and lemmatizer. These embeddings can be used as input for these tasks or can be enahanced furhter by the latest pre-trained model other than this one. To use araBERT for such specific NLP tasks for classification, you would need to fine-tune the model on the labeled dataset "talafeef.csv'. Once fine-tuned, save the model and use it to generate predictions or perform the desired task on new/unseen Arabic text.
 
 ##### فكرة نظام تلافيف للمُعجّم العربي
 
