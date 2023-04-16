@@ -1,5 +1,8 @@
 ### نظام تلافيف: نظام تجريبي معتمد على التعلم العميق للوسوم النحوية والتأصيل المعجمي
 
+#### The pre-trained arabert model has not been fine-tuned on our dataset. Up the moment, we use the araBERT on the raw Arabic text without fin-tuning it for the tasks of POS tagging and lemmatizer. These embeddings can be used as input for these tasks or can be enahanced furhter by the latest pre-trained model other than this one. To use araBERT for such specific NLP tasks for classification, you would need to fine-tune the model on the labeled dataset "talafeef.csv'. Once fine-tuned, save the model and use it to generate predictions or perform the desired task on new/unseen Arabic text.
+
+
 ##### If you use this repo for any pruporse, please cite using the following metadata: 
 ###### Almujaiwe, S., Omar, B., Alshehri, M. (2022). A deep learning-based system for Arabic POS tagging and Lemmatization. GitHub repository. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
 
@@ -15,14 +18,12 @@
 ##### النماذج على الترتيب مكتوبة بالإنجليزية بغية الوضوح (كل هذه النماذج موضوعة في مجلد باسم: نماذج نظام المعجم Arabic Lemmatizer Models)
 
 1. CRF Model: (crf_model.sav)
-2. RNN (LSTM) Model: (rnn-model.h5)
+2. LSTM (RNN) Model: (rnn-model.h5)
 3. N-Gram Model: (tag2index.pkl and word2index.pkl)
 4. Skip-Gram Model: (model.pt)
 5. CBOW Model: (model.h5 and embeddings.npz)
 6. araBERTv2: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl). All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage.
 #### To execute the GUI, download the zip file named NLPiffy_GUI, and run the file saved as nlpiffy_gui.py. 
-#### The pre-trained arabert model has not been fine-tuned on our dataset. Up the moment, we use the araBERT on the raw Arabic text without fin-tuning it for the tasks of POS tagging and lemmatizer. These embeddings can be used as input for these tasks or can be enahanced furhter by the latest pre-trained model other than this one. To use araBERT for such specific NLP tasks for classification, you would need to fine-tune the model on the labeled dataset "talafeef.csv'. Once fine-tuned, save the model and use it to generate predictions or perform the desired task on new/unseen Arabic text.
-
 ##### فكرة نظام تلافيف للمُعجّم العربي
 
 بُني هذا النظام بشكل كامل، بدءًا من جمع المدونة العربية، وصولًا إلى بناء معجّم آلي كامل. يُمكن زيادة نصوص مجالات الأوعية الخمسة التي حُدّدت في هذا المشروع، وقد طوّرنا الأدوات والأساليب التي تُساعد على تفريق وتقطيع النصوص آليا، ثم العمل على (1) استخراج الأصل المعجمي للكلمة، (2) والمعنى الدلالي السياقي، (3) والعلاقة الدلالية، (4) والوسم النحوي، (5) والتلازم اللغوي، (6) والتصاحب اللفظي، (7) والتنبؤ بالمتلازم.
