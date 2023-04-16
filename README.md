@@ -1,6 +1,6 @@
 ### نظام تلافيف: نظام تجريبي معتمد على التعلم العميق للوسوم النحوية والتأصيل المعجمي
 
-&nbsp;The pre-trained arabert model has not been fine-tuned on our dataset. Up the moment, we use the araBERT on the raw Arabic text without fin-tuning it for the tasks of POS tagging and lemmatizer. These embeddings can be used as input for these tasks or can be enahanced furhter by the latest pre-trained model other than this one. To use araBERT for such specific NLP tasks for classification, you would need to fine-tune the model on the labeled dataset "talafeef.csv'. Once fine-tuned, save the model and use it to generate predictions or perform the desired task on new/unseen Arabic text.&nbsp;
+<div style="text-align: justify;">The pre-trained arabert model has not been fine-tuned on our dataset. Up the moment, we use the araBERT on the raw Arabic text without fin-tuning it for the tasks of POS tagging and lemmatizer. These embeddings can be used as input for these tasks or can be enahanced furhter by the latest pre-trained model other than this one. To use araBERT for such specific NLP tasks for classification, you would need to fine-tune the model on the labeled dataset "talafeef.csv'. Once fine-tuned, save the model and use it to generate predictions or perform the desired task on new/unseen Arabic text.</div>
 
 
 ##### If you use this repo for any pruporse, please cite using the following metadata: 
