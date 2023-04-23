@@ -1,5 +1,5 @@
 ### نظام تلافيف: نظام تجريبي للوسوم النحوية والتأصيل المعجمي
-##### If you use this repo for any pruporse, please cite using the following metadata: 
+
 ###### Almujaiwel, S., Omar, B., Alshehri, M. (2022). talafeef--arabic--lemmatizer [GitHub repository]. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
 
 ##### ما يتضمنه نظام المُعجّم العربي Arabic Lemmatizer: 
