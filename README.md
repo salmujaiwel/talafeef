@@ -1,8 +1,6 @@
 ## Talafeef
 
-#### This early-stage system was built entirely from scratch, starting with the collection of Arabic corpora, followed by the construction of automatic POS tagging and lemmatization tools.
-#### The corpora for the five domains identified in this project can be expanded, as our goal was to develop tools and methods for tokenization, segmentation, POS tagging, and lemmatization stages.
-#### Word-embedding models were created using the project's data to experimentally observe how these models function.
+#### This early-stage system was built entirely from scratch, starting with the collection of Arabic corpora and the construction of automatic POS tagging and lemmatization tools, while also creating word-embedding models using the project's data to experimentally observe how these models function.
 
 ##### Information about the corpora
   - Standard--Academic: 10,512 tokens
