@@ -35,7 +35,7 @@
 | FW     | Non-Arabic                           |
 
 #### The project involves training, testing, and evaluating the following: models such as Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERTv02. The models and files saved in the project:
-#### Trained, tested, evaluated models using specific evaluation metrics (accuracy, precision, recall, F1-score).
+#### Trained, tested, evaluated models using classification metrics.
   - CRF Model: (crf_model.sav)
   - LSTM (RNN) Model: (rnn-model.h5)
 #### N-Gram Model 
