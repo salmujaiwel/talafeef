@@ -2,7 +2,7 @@
 
 **Almujaiwel, S., Omar, B., Alshehri, M. (2022). Talafeef: A POS Tagging and Lemmatization System for Diverse Genres of Modern Standard Arabic Texts [GitHub repository].** [https://github.com/salmujaiwel/talafeef--arabic--lemmatizer](https://github.com/salmujaiwel/talafeef--arabic--lemmatizer)
 
-**This early-stage system was built entirely, starting from the collection of Arabic corpora, to the construction of a complete automatic lemmatizer.** **The corpus of the five domains identified in this project can be expanded, as we aimed to develop tools and methods at the stages of tokenization, segmentation, POS tagging, and lemmatization.**
+#### This early-stage system was built entirely, starting from the collection of Arabic corpora, to the construction of a complete automatic lemmatizer. The corpus of the five domains identified in this project can be expanded, as we aimed to develop tools and methods at the stages of tokenization, segmentation, POS tagging, and lemmatization.
 
 #### Information about the corpora
   - Standard--Academic: 10,512 tokens
@@ -12,7 +12,7 @@
   - Standard--Web: 10,097 tokens
 
 #### POS Tagset (inspired by STANFORD)
-<p style="text-indent: 2em; margin-left: 2em;">-N: Nouns -V: Verbs (VBD: Past tense VBN: Passive voice VBP: Present tense VB: Imperative) -JJ: Derived adjectives -JJR: Comparative adjectives -RB: Adverbs -DT: Demonstrative pronouns -WP: Relative pronouns -IN: Prepositions -CC: Conjunctions -PRP: Personal pronouns -RP: Particles -WRB: Interrogative pronouns -ABBREV: Arabic abbreviations -PUNC: Punctuation marks -CD: Numbers -FW: Non-Arabic.</p>
+**-N: Nouns -V: Verbs (VBD: Past tense VBN: Passive voice VBP: Present tense VB: Imperative) -JJ: Derived adjectives -JJR: Comparative adjectives -RB: Adverbs -DT: Demonstrative pronouns -WP: Relative pronouns -IN: Prepositions -CC: Conjunctions -PRP: Personal pronouns -RP: Particles -WRB: Interrogative pronouns -ABBREV: Arabic abbreviations -PUNC: Punctuation marks -CD: Numbers -FW: Non-Arabic.**
 
 #### The project involves training, testing, and evaluating the following: models such as Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERT. The models and files saved in the project:
 #### Trained, tested, evaluated models using specific evaluation metrics (accuracy, precision, recall, F1-score).
