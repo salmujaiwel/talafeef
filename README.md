@@ -1,6 +1,6 @@
 ## Talafeef: Arabic POS Tagging and Lemmatizer
 
-##### Almujaiwel, S., Omar, B., Alshehri, M. (2022). Talafeef: POS Tagging and Lemmatization System for Diverse Genres of Modern Standard Arabic Texts [GitHub repository]. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
+**Almujaiwel, S., Omar, B., Alshehri, M. (2022). Talafeef: POS Tagging and Lemmatization System for Diverse Genres of Modern Standard Arabic Texts [GitHub repository].** [https://github.com/salmujaiwel/talafeef--arabic--lemmatizer](https://github.com/salmujaiwel/talafeef--arabic--lemmatizer)
 
 #### This early-stage system was built entirely, starting from the collection of Arabic corpora, to the construction of a complete automatic lemmatizer. The corpus of the five domains identified in this project can be expanded, as we aimed to develop tools and methods at the stages of tokenization, segmentation, POS tagging, and lemmatization.
 
