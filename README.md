@@ -1,6 +1,6 @@
-## Talafeef: Early-stage POS Tagging and Lemmatization System
+## Talafeef: Arabic POS Tagging and Lemmatizer
 
-##### Almujaiwel, S., Omar, B., Alshehri, M. (2022). talafeef--arabic--lemmatizer [GitHub repository]. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
+##### Almujaiwel, S., Omar, B., Alshehri, M. (2022). Talafeef: POS Tagging and Lemmatization System for Diverse Genres of Modern Standard Arabic Texts [GitHub repository]. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
 
 #### This early-stage system was built entirely, starting from the collection of Arabic corpora, to the construction of a complete automatic lemmatizer. The corpus of the five domains identified in this project can be expanded, as we aimed to develop tools and methods at the stages of tokenization, segmentation, POS tagging, and lemmatization.
 
@@ -26,5 +26,5 @@
   - Standard--Official-Issues: 10,093 tokens
   - Standard--Web: 10,097 tokens
 
-#### POS Tagset
+#### POS Tagset (inspired from CoreNLP STANFORD)
 <p style="text-indent: 2em; margin-left: 2em;">N: Nouns - V: Verbs (VBD: Past tense, VBN: Passive voice, VBP: Present tense, VB: Imperative) - JJ: Derived adjectives - JJR: Comparative adjectives - RB: Adverbs - DT: Demonstrative pronouns - WP: Relative pronouns - IN: Prepositions - CC: Conjunctions - PRP: Personal pronouns - RP: Particles - WRB: Interrogative pronouns - ABBREV: Arabic abbreviations - PUNC: Punctuation marks - CD: Numbers - FW: Non-Arabic.</p>
