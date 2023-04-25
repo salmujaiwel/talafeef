@@ -44,6 +44,6 @@
   - Skip-Gram Model: (model.pt)
   - CBOW Model: (model.h5 and embeddings.npz)
   - araBERTv02 (source: https://huggingface.co/aubmindlab/bert-base-arabertv2): (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl)
-#### Fine-tuning of the Pre-trained araBERTv02 Model on the Project-specific Data and tasks
-
+#### Fine-tuned pre-trained araBERTv02 Model on the project-specific data
+  - fine_tuned_arabertv02.zip
 #### To execute the GUI, download the zip file named NLPiffy_GUI, and run the file saved as nlpiffy_gui.py.
