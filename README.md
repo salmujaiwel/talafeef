@@ -12,7 +12,27 @@
   - Standard--Web: 10,097 tokens
 
 #### POS Tagset (inspired by STANFORD)
-N:nouns|VBD:past_tense,VBN:passive_voice,VBP:present_tense,VB:imperative|JJ:derived_adjectives|JJR:comparative_adjectives|RB:Adverbs|DT:demonstrative_pronouns|WP:relative_pronouns|IN:prepositions|CC:conjunctions|PRP:personal_pronouns|RP:particles|WRB:interrogative_pronouns|ABBREV:Arabic_abbreviations|PUNC:punctuation_marks|CD:numbers|FW:Non-Arabic.
+| Tag    | Description                          |
+|--------|--------------------------------------|
+| N      | Nouns (Non-tagged specific features) |
+| VBD    | Past tense                           |
+| VBN    | Passive voice                        |
+| VBP    | Present tense                        |
+| VB     | Imperative                           |
+| JJ     | Derived adjectives                   |
+| JJR    | Comparative adjectives               |
+| RB     | Adverbs                              |
+| DT     | Demonstrative pronouns               |
+| WP     | Relative pronouns                    |
+| IN     | Prepositions                         |
+| CC     | Conjunctions                         |
+| PRP    | Personal pronouns                    |
+| RP     | Particles                            |
+| WRB    | Interrogative pronouns               |
+| ABBREV | Arabic abbreviations                 |
+| PUNC   | Punctuation marks                    |
+| CD     | Numbers                              |
+| FW     | Non-Arabic                           |
 
 #### The project involves training, testing, and evaluating the following: models such as Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERT. The models and files saved in the project:
 #### Trained, tested, evaluated models using specific evaluation metrics (accuracy, precision, recall, F1-score).
