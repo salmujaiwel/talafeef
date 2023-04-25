@@ -1,59 +1,28 @@
-### نظام تلافيف: نظام تجريبي للوسوم النحوية والتأصيل المعجمي
+Talafeef: A Trial System for Arabic POS Tagging and Lemmatization
+Almujaiwel, S., Omar, B., Alshehri, M. (2022). talafeef--arabic--lemmatizer [GitHub repository]. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
+The Arabic Lemmatizer system includes:
+A lemmatization methodology for Arabic words
+Extraction of definitions and synonyms for Arabic words
+Development of a Long Short-Term Memory (LSTM) recurrent neural network (RNN) model instead of a Conditional Random Field (CRF) model for POS tagging
+Development of Continuous Bag of Words (CBOW) and Skip-Gram models for predicting contextually similar words
+Contextual word prediction using the pre-trained BERT model; Source: https://huggingface.co/aubmindlab/bert-base-arabertv2
+Models in order, written in English for clarity (all these models are placed in a folder named: Arabic Lemmatizer Models)
+CRF Model: (crf_model.sav)
+LSTM (RNN) Model: (rnn-model.h5)
+N-Gram Model: (tag2index.pkl and word2index.pkl)
+Skip-Gram Model: (model.pt)
+CBOW Model: (model.h5 and embeddings.npz)
+araBERTv2: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl).
+All are integrated into the GUI. We first created the bert-model.h5, then we created a list of embeddings to use at this stage.
+To execute the GUI, download the zip file named NLPiffy_GUI, and run the file saved as nlpiffy_gui.py.
+The concept of the Talafeef system for the Arabic Lemmatizer
+This system was built entirely, starting from the collection of Arabic corpora, to the construction of a complete automatic lemmatizer. The texts of the five domains identified in this project can be expanded, as we aimed to develop manual tools and methods at the stages of segmentation, tokenization, POS tagging, and lemmatization.
 
-###### Almujaiwel, S., Omar, B., Alshehri, M. (2022). talafeef--arabic--lemmatizer [GitHub repository]. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
+Information about the corpora
+Standard--Academic: 10,512 tokens.
+Standard-- Khutbah: 10,380 tokens.
+Standard--Newspapers: 10,408 tokens.
+Standard--Official-Issues: 10,093 tokens.
+Standard--Web: 10,097 tokens.
 
-##### ما يتضمنه نظام المُعجّم العربي Arabic Lemmatizer: 
-
-* منهج مؤصّل معجمي lemmatizer للكلمات العربية
-* استخراج التعريفات والمترادفات للكلمات العربية
-* تطوير نموذج الشَّبكات العصبِيَّة المتكَرّرة بشبكات الذَّاكرة القصيرةِ-الطَّويلةِ المدى بدلا من نموذج الحقول العشوائية المشروطة للوسوم النحوية
-* تطوير نموذج حقيبية الكلمات المستمرة Continuous Bag of Words CBOW وتخطي الكلمة SkipGram للتنبؤ بالكلمات المتقاربة سياقيا
-* التنبؤ بالكلمات سياقيا بنموذج برت المدرب مسبقا؛ المصدر: https://huggingface.co/aubmindlab/bert-base-arabertv2
-
-##### النماذج على الترتيب مكتوبة بالإنجليزية بغية الوضوح (كل هذه النماذج موضوعة في مجلد باسم: نماذج نظام المعجم Arabic Lemmatizer Models)
-
-1. CRF Model: (crf_model.sav)
-2. LSTM (RNN) Model: (rnn-model.h5)
-3. N-Gram Model: (tag2index.pkl and word2index.pkl)
-4. Skip-Gram Model: (model.pt)
-5. CBOW Model: (model.h5 and embeddings.npz)
-6. araBERTv2: (tokenized_text.npz) and (token_vecs_cat_array.npz) and (tokenized_text.pkl).
-#### All are integrated into the GUI. We created the mdoel bert-model.h5 first, then we created a list of embeddings to use it at this stage.
-#### To execute the GUI, download the zip file named NLPiffy_GUI, and run the file saved as nlpiffy_gui.py. 
-
-##### فكرة نظام تلافيف للمُعجّم العربي
-بُني هذا النظام بشكل كامل، بدءًا من جمع المدونة العربية، وصولًا إلى بناء معجّم آلي كامل. يُمكن زيادة نصوص مجالات الأوعية الخمسة التي حُدّدت في هذا المشروع، سعينا إلى تطوير الأدوات والأساليب يدويا في مراحل التفريق والتقطيع والتوسيم النحوي واستخراج الأصل المعجمي.
-
-##### معلومات عن المدونة
--	Standard--Academic:	10,512 tokens.
--	Standard-- Khutbah:	10,380 tokens.
--	Standard--Newspapers: 10,408 tokens.
--	Standard--Official-Issues: 10,093 tokens.
--	Standard--Web: 10,097 tokens. 
-
-لماذا هذه الأوعية تحديدًا؟ تزخر اللغة العربية بتنوع هائل من الأوعية، مع قلة المجالات والموضوعات. حصرنا هذه الأوعية في خمسة فقط، نظرًا لشموليتها. من المعلوم أن المجالات والموضوعات العلمية كالطب مثلا قليلة باللغة العربية، ولكن يُمكن معالجة هذه القلة باستراتيجية تقليل الأوعية لصالح توزين تلك المجالات القليلة. هذه الاستراتيجية مقترحه من رئيس الفريق، وستُساعد على زيادة مدونتنا مستقبلا، وفي هذه الزيادة اعتدال قد يتحقق. كيف؟ لو جئنا بأوعية عديدة، فإن الزيادة في المتوفر منها بكثرة قد يُضعف المواد المعجمية في المدونة، مثل: الصحف، التي تكثر فيها الكلمات نفسها، المتوسطة التكرار، على اختلاف جغرافياتها وموضوعاتها. قادنا هذا الافتراض إلى أن نحدد أهم الأوعية التي تشمل مجالات اللغة بوصفها لغةً نموذجية تتمثل فيها مستويات الفصاحة والتفصيح، وهذه الأوعية هي: الوعاء الأكاديمي، والوعاء الديني، والوعاء الصحفي، ووعاء الإصدارات الرسمية، ووعاء الويب.
-
-يُمكن لأي مجال من مجالات النصوص اللغوية العربية أن تُدمج نصوصها اللغوية ضمن هذه الخمسة التي حدّدناها، كما سيساعد تحديد هذه الأوعية الخمسة فقط على الانتقائية المتوازنة للنصوص اللغوية العربية. مثلا: يُمكن أن نضيف نصوص الكتب التعليمية الرسمية ضمن وعاء (الإصدارات الرسمية)، ويمكن أن نضيف نصوص الرسائل الجامعية ضمن وعاء النصوص الأكاديمية، ويُمكن أن نضيف نصوص الحوارات ضمن الصحافة وكل ما يرتبط بمنشورات الصحافة والميديا الجديدة من صحف ووكالات أنباء وحوارات تلفزيونية وتواصل اجتماعي ضمن صناعة الصحافة journalism.
-
-##### الوسوم النحوية
-
-1. N: الأسماء؛ كل الأسماء الشائعة والأعلام والكيانات والمصادر والمصدر الصناعي والأعداد المكتوبة بالحروف (واحد، اثنان، ثلاثة، إلخ) والأسماء المنسوبة واسم الآلة واسم المكان واسم الزمان 
-2. V: الأفعال
--	VBD: فعل ماضي
--	VBN: فعل مبني للمجهول
--	VBP: فعل مضارع
--	VB: فعل أمر
-3. JJ: صفة (المشتقات الآتية فقط): اسم الفاعل، واسم المفعول، وصيغ المبالغة، والصفات المشبهة
-4. JJR:	صفة (التفضيل)؛ اسم التفضيل (مثل: أكبر، الأكبر) والألوان على صيغة (أفعل-فعلاء) 
-5. RB:	الظروف؛ كل ظروف الزمان والمكان مثل: [ثَمَ]؛ [عند]؛ [بين]؛ إلخ
-6. DT:	أسماء الإشارة
-7. WP:	الأسماء الموصولة؛ أخوات (الذي)
-8. IN:	حروف الجر
-9. CC:	حروف العطف؛ [و]؛ [ف]؛ [ثم]؛ [بل]؛ [أم]
-10. PRP: الضمائر المنفصلة؛ [هم]؛ [هما]؛ [هو]؛ [هي]؛ [أنا]؛ [نحن]؛ [أنتم] إلخ.
-11. RP:	الأدوات؛ مثل: أدوات النصب للأسماء وأدوات النصب والجزم للأفعال وما قيس على الحروف
-12. WRB: أسماء الاستفهام؛ كل أسماء الاستفهام المعروفة، التي تعبر عن الاستفهام
-13. ABBREV: الاختصارات العربية؛ التي تتعلق بالحرف العربي فقط أما الحرف الأجنبي فقد صُنّف ضمن الكلمات الأجنبية
-14. PUNC: علامات الترقيم 
-15. CD:	الأعداد	[1]؛ [2]؛ [3]؛ إلخ 
-16. FW:	الكلمات الأجنبية بحروف غير عربية
+Why these specific domains? The Arabic language is rich in diversity of domains, with few fields and topics. We limited these domains to only five, due to their inclusiveness. It is known that scientific fields and topics, such as medicine, are scarce in Arabic, but this scarcity can be addressed by reducing the number of domains in favor of balancing those few fields. This strategy is proposed by the team leader and will help increase our corpus in the future, and in this increase, a balance may be achieved. How? If we brought many domains, the increase in what is abundantly available in them may weaken the lexicographical materials in the corpus, such as newspapers, where the same words, moderately repetitive, abound, regardless of their geographies and subjects. This assumption led us to determine the most important domains that include the language as a representative language in which levels of eloquence and clarity are represented, and these domains are: academic, religious, journalistic, official publications, and web.
