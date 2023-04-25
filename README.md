@@ -34,7 +34,7 @@
 | CD     | Numbers                              |
 | FW     | Non-Arabic                           |
 
-#### The project involves training, testing, and evaluating the following: models such as Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERTv02. The models and files saved in the project:
+#### The project involves training, testing, and evaluating the following: Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERTv02. The models can be saved upon completion of the talafeef.ipynb notebook execution:
 #### Trained, tested, evaluated models using classification metrics.
   - CRF Model: (crf_model.sav)
   - LSTM (RNN) Model: (RNN-model.h5, RNN_tag2index.pkl, RNN_word2index)
