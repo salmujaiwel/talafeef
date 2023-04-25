@@ -12,7 +12,7 @@
   - Standard--Web: 10,097 tokens
 
 #### POS Tagset (inspired by STANFORD)
-###### -N: Nouns -V: Verbs (VBD: Past tense VBN: Passive voice VBP: Present tense VB: Imperative) -JJ: Derived adjectives -JJR: Comparative adjectives -RB: Adverbs -DT: Demonstrative pronouns -WP: Relative pronouns -IN: Prepositions -CC: Conjunctions -PRP: Personal pronouns -RP: Particles -WRB: Interrogative pronouns -ABBREV: Arabic abbreviations -PUNC: Punctuation marks -CD: Numbers -FW: Non-Arabic.
+###### N: Nouns, V: Verbs (VBD: Past tense VBN: Passive voice VBP: Present tense VB: Imperative), JJ: Derived adjectives, JJR: Comparative adjectives, RB: Adverbs, DT: Demonstrative pronouns, WP: Relative pronouns, IN: Prepositions, CC: Conjunctions, PRP: Personal pronouns, RP: Particles, WRB: Interrogative pronouns, ABBREV: Arabic abbreviations, PUNC: Punctuation marks, CD: Numbers, FW: Non-Arabic.
 
 #### The project involves training, testing, and evaluating the following: models such as Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERT. The models and files saved in the project:
 #### Trained, tested, evaluated models using specific evaluation metrics (accuracy, precision, recall, F1-score).
