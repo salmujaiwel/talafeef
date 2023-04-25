@@ -27,6 +27,4 @@
   - Standard--Web: 10,097 tokens
 
 #### POS Tagset
-<p style="text-indent: 2em; margin-left: 2em;">
-N: Nouns | V: Verbs (VBD: Past tense, VBN: Passive voice, VBP: Present tense, VB: Imperative) | JJ: Derived adjectives | JJR: Comparative adjectives | RB: Adverbs | DT: Demonstrative pronouns | WP: Relative pronouns | IN: Prepositions | CC: Conjunctions | PRP: Personal pronouns | RP: Particles | WRB: Interrogative pronouns | ABBREV: Arabic abbreviations | PUNC: Punctuation marks | CD: Numbers | FW: Non-Arabic.
-</p>
+<p style="text-indent: 2em; margin-left: 2em;">N: Nouns | V: Verbs (VBD: Past tense, VBN: Passive voice, VBP: Present tense, VB: Imperative) | JJ: Derived adjectives | JJR: Comparative adjectives | RB: Adverbs | DT: Demonstrative pronouns | WP: Relative pronouns | IN: Prepositions | CC: Conjunctions | PRP: Personal pronouns | RP: Particles | WRB: Interrogative pronouns | ABBREV: Arabic abbreviations | PUNC: Punctuation marks | CD: Numbers | FW: Non-Arabic.</p>
