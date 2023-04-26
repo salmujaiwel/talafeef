@@ -40,5 +40,5 @@
   - Skip-Gram Model: (SkipGram_model.pt)
   - CBOW Model: (cbow_model.h5, CBOW_Embeddings.npz)
   - araBERTv02 (source: https://huggingface.co/aubmindlab/bert-base-arabertv2): (token_vecs_cat_array.pkl, token_vecs_cat_array.npz, tokenized_text.pkl)
-#### Fine-tuned araBERTv02 Model on the project-specific data for Arabic Natural Langauge Understanding (NLU)
+#### Fine-tuned araBERTv02 Model on the project-specific data for Arabic NLU ("masking")
   - fine_tuned_arabertv02.zip
