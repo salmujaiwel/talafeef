@@ -1,1 +1,3 @@
-Almujaiwe, S., Omar, B., Alshehri, M. (2022). A deep learning-based system for Arabic POS tagging and word-embeddings. GitHub repository. https://github.com/salmujaiwel/talafeef--arabic--lemmatizer
+For Arabic POS Tagging and Lemmatizer Models: Almujaiwe, S. (2023). CRF versus LSTM(RNN) For Arabic POS Tagging [GitHub repository]. https://github.com/salmujaiwel/talafeef
+For Word Embeddings (SkG, CBOW, BERT Models): Almujaiwe, S. (2023). Word Embedggings versus BERT  [GitHub repository]. https://github.com/salmujaiwel/talafeef
+For Fine-tuned araBERTv02 on the Project-Specific Data: Almujaiwe, S. (2023). Fine-Tuned araBERTv02 [GitHub repository]. https://github.com/salmujaiwel/talafeef
