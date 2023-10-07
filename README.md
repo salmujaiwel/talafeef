@@ -32,13 +32,10 @@ Information about the corpora
 | CD     | Numbers                              |
 | FW     | Non-Arabic                           |
 
-The project involves training, testing, and evaluating the project-specific data using: Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERTv02. The models can be saved upon completion of the talafeef.ipynb notebook execution:
-#### Trained, tested, evaluated models using classification metrics (CRF versus LSTM-RNN For Arabic POS Tagging)
+#### Arabic Language Models 
   - CRF Model: (crf_model.sav)
   - LSTM (RNN) Model: (RNN-model.h5, RNN_tag2index.pkl, RNN_word2index)
-Word embeddings using Skip-Gram, CBOW, and araBERTv02 (ord Embedggings versus BERT for the project-specific data)
   - Skip-Gram Model: (SkipGram_model.pt)
   - CBOW Model: (cbow_model.h5, CBOW_Embeddings.npz)
   - araBERTv02 (source: https://huggingface.co/aubmindlab/bert-base-arabertv2): (token_vecs_cat_array.pkl, token_vecs_cat_array.npz, tokenized_text.pkl)
-Fine-tuned araBERTv02 Model on the project-specific data for Arabic NLU ("masking")
-  - fine_tuned_arabertv02.zip
+  - Fine-tuned model: fine_tuned_arabertv02.zip
