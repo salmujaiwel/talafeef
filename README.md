@@ -33,7 +33,7 @@
 | FW     | Non-Arabic                           |
 
 #### The project involves training, testing, and evaluating the project-specific data using: Conditional Random Fields (CRF), Long Short-Term Memory LSTM (RNN), Skip-Gram, Continuous Bag of Words (CBOW), and araBERTv02. The models can be saved upon completion of the talafeef.ipynb notebook execution:
-#### Trained, tested, evaluated models using classification metrics (CRF versus LSTM-RNN For Arabic POS Tagging
+#### Trained, tested, evaluated models using classification metrics (CRF versus LSTM-RNN For Arabic POS Tagging)
   - CRF Model: (crf_model.sav)
   - LSTM (RNN) Model: (RNN-model.h5, RNN_tag2index.pkl, RNN_word2index)
 #### Word embeddings using Skip-Gram, CBOW, and araBERTv02 (ord Embedggings versus BERT for the project-specific data)
