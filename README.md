@@ -37,5 +37,5 @@ Information about the corpora
   - LSTM (RNN) Model: (RNN-model.h5, RNN_tag2index.pkl, RNN_word2index)
   - Skip-Gram Model: (SkipGram_model.pt)
   - CBOW Model: (cbow_model.h5, CBOW_Embeddings.npz)
-  - araBERTv02 (source: https://huggingface.co/aubmindlab/bert-base-arabertv2): (token_vecs_cat_array.pkl, token_vecs_cat_array.npz, tokenized_text.pkl)
+  - araBERTv02: (token_vecs_cat_array.pkl, token_vecs_cat_array.npz, tokenized_text.pkl)
   - Fine-tuned model: fine_tuned_arabertv02.zip
