@@ -1,6 +1,6 @@
 ## Talafeef
 
-#### This project was built entirely from scratch, starting with the collection of Arabic corpora and the development of automatic POS tagging and lemmatization tools, while also creating word-embedding models using the project's data to empirically observe how these models function.
+# This project was built entirely from scratch, starting with the collection of Arabic corpora and the development of automatic POS tagging and lemmatization tools, while also creating word-embedding models using the project's data to empirically observe how these models function.
 
 ##### Information about the corpora
   - Standard--Academic: 10,512 tokens
