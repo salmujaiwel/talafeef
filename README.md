@@ -9,29 +9,6 @@ Information about the corpora
   - Standard--Official-Issues: 10,093 tokens
   - Standard--Web: 10,097 tokens
 
-#### POS Tagset (inspired by STANFORD)
-| Tag    | Description                          |
-|--------|--------------------------------------|
-| N      | Nouns (Non-tagged specific features) |
-| VBD    | Past tense                           |
-| VBN    | Passive voice                        |
-| VBP    | Present tense                        |
-| VB     | Imperative                           |
-| JJ     | Derived adjectives                   |
-| JJR    | Comparative adjectives               |
-| RB     | Adverbs                              |
-| DT     | Demonstrative pronouns               |
-| WP     | Relative pronouns                    |
-| IN     | Prepositions                         |
-| CC     | Conjunctions                         |
-| PRP    | Personal pronouns                    |
-| RP     | Particles                            |
-| WRB    | Interrogative pronouns               |
-| ABBREV | Arabic abbreviations                 |
-| PUNC   | Punctuation marks                    |
-| CD     | Numbers                              |
-| FW     | Non-Arabic                           |
-
 #### Arabic Language Models 
   - CRF Model: (crf_model.sav)
   - LSTM (RNN) Model: (RNN-model.h5, RNN_tag2index.pkl, RNN_word2index)
