@@ -15,4 +15,4 @@ This project was built entirely from scratch, starting with the collection of Ar
   - Skip-Gram Model: (SkipGram_model.pt)
   - CBOW Model: (cbow_model.h5, CBOW_Embeddings.npz)
   - araBERTv02: (token_vecs_cat_array.pkl, token_vecs_cat_array.npz, tokenized_text.pkl)
-  - Fine-tuned model: (fine_tuned_arabertv02.zip)
+
